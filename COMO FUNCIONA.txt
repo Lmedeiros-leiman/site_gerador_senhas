@@ -1,0 +1,21 @@
+como funciona um site em C#:
+
+básicamente o site é iniciado como todo programa em C#: pela função main ou por um arquivo de entrada em linha.
+no caso dessa aplicação começamos pelo Program.cs.
+
+o arquivo Program.cs é um arquivo em linha que executa alguns comandos para chamar livrarias/plugins e então envia o pedido para o roteador do site.
+quando no roteador, o pedido é enviado para uma página.
+
+importante:
+    existem duas formas de se criar um site: MVC e MV
+    básicamente podemos criar os dados na mesma página que a view ou separar: criando um controlador que chamara uma view.
+    
+    a diferença é que separando é possivel criar código modular e permitir chamar views baseado no resultado da script.
+    mas honestamente: apenas mais bagunça a cabeça de iniciante.
+    
+a propósito:
+
+o header do HTML esta em pages > shared > _Layout
+o arquivo javascript padrão é carregado APÓS a página.
+
+por padrão, o C# adicionar o jquery e bootstrap para sua aplicação.

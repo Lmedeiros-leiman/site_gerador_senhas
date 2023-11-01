@@ -1,0 +1,28 @@
+﻿@page
+
+@using System.Data
+@model IndexModel
+
+<div class="text-center">
+    <h1 class="display-4">Super gerador de senhas!</h1>
+    
+    <div style="display: block;">
+        <div>
+            <div>
+                <label></label>
+                <div style=" margin: 1rem; border: 1px solid black; padding: 0.25rem;" 
+                     id="output"
+                     >Clique no botão para gerar uma senha nova.</div>
+            </div>
+            
+            <button id="input">Gerar senha nova</button>
+            
+            <div>
+                <div>
+                    <label>Tamanho Senha</label>
+                    <input id="tamanho" value="20" type="number"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
